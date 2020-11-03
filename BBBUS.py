@@ -25,6 +25,7 @@ def bbbus(folder_name):
                     presence[names.index(name), i] += 1
                 else:
                     names.append(name)
+                    presence[names.index(name), i] += 1
             elif "par nom :" in l:
                 flag = True
         i += 1
